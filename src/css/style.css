@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+body a{
+    color: rgb(111, 182, 5);
+}
+img{
+    max-width: 100%;
+}
+/* header */
+header{
+    background: #313030;
+    padding: 15px 0px 15px 250px;
+}
+h1{
+    color: orange;
+    font-weight: bold;
+    font-size: 50px; 
+}
+header span{
+    color: white;
+}
+header div p{
+    color: white;
+    padding-left: 180px;
+}
+/* header nav */
+.nav-links{
+    padding-top: 40px;
+}
+.nav-links ul {
+    list-style-type: none;  
+    display: flex;        
+}
+.nav-links li {
+    margin-right: 15px;    
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background: rgb(32, 124, 32);
+    border-radius: 3px;
+    padding: 5px;        
+}
+header nav ul li a:hover{
+    background: orange;
+}
+header nav ul li a:active{
+    background: orange;
+}
+header nav ul li a:focus-visible {
+    outline: none;  
+}
+header nav ul li a:focus:not(:focus-visible) {
+    background-color: orange;  
+}
+/* main */
+.main-content {
+    display: flex;  
+    margin: 0 auto;  
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 3px 15px 230px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+.content {
+    flex: 1; 
+    display: flex;  
+    flex-direction: column;  
+    margin-top: 20px;
+}
+.first-article {
+    display: flex; 
+    flex-wrap: wrap;  
+    margin-bottom: 20px; 
+}
+.article-wrapper {
+    flex: 1 1 calc(50% - 20px);  
+    margin-right: 10px;
+    background: #f0f0f0;
+    height: 830px;
+}
+.last-articles {
+    display: flex;  
+    flex-wrap: wrap;  
+}
+.first-article,
+.last-articles {
+    flex-direction: row;  
+    flex-wrap: wrap;  
+}
+article img{
+    width: 300px;
+    height: auto;
+    border: black 2px solid;
+    margin-left: 9px;
+}
+main h2{
+    color: rgb(41, 230, 41);
+    margin-top: 10px;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+main h3{
+    padding: 13px;
+}
+main p{
+    padding: 15px 0 20px 9px;
+}
+/* aside */
+aside {
+    flex: 0 0 250px; 
+    padding: 20px;  
+    padding: 10px;  
+    padding-right: 50px;
+}
+.aside-part{
+    margin-top: 18px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+aside ul li{
+    list-style-type: none;
+    padding: 9px;
+    margin-left: -9px;
+}
+aside ul li span{
+    opacity: 0.5;
+}
+.sec-nav li {
+    margin-bottom: 15px;  
+}
+.sec-nav li span {
+    display: block;  
+    margin-top: 5px;  
+}
+aside {
+    margin-left: 10px;  
+    margin-top: 0;  
+    margin-right: 30px;
+}
+/* read more and comments  */
+.link-container{
+    font-size: smaller;
+}
+.link-container a{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.link-container span{
+    padding-left: 4px;
+}
+.link-container.read-more a{
+    color: orange;
+    
+}
+.read-more{
+    color: orangered;
+}
+/* footer */
+.footer-container{
+    display: flex;                
+    justify-content: center;      
+    flex-wrap: wrap;  
+    background: rgb(5, 44, 8);
+    color: white;
+}
+.footers{
+    display: flex;                
+    flex-direction: column;       
+    align-items: flex-start;          
+    margin: 10px;                
+    text-align: center;           
+    max-width: 230px;
+    line-height: 3 px;
+    padding: 0px;
+    text-align: left; 
+}
+
+.footers p br {
+    display: block; 
+    content: '';  
+    margin-top: 9px;  
+    padding-top: 5px;
+}
+.about-pic {
+    float: left;  
+    padding: 5px 7px 0px;
+    align-items: left;
+    width: 25%;
+    height: 25%;
+}
+.footer-container {
+    overflow: auto;  
+}
+.footers p {
+    margin-bottom: 5px;  
+}
+.footers h3{
+    text-align: left;
+    align-items: left;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.image-wrapper img{
+    width: 25%;
+    height: 25%;
+    padding: 3px;
+}
+.footers:nth-of-type(2) {
+    margin-bottom: 30px;  
+    width: 350px;
+}
+/* last footer */
+.second-part{
+    color: white;
+    background: rgb(23, 19, 19);
+    border-top-color: rgb(15, 10, 10);
+    border-top-width: 1px;
+    padding: 15px;
+    display: block;
+    justify-content: flex-end;
+}
+.second-part p{
+    padding-left: 200px;
+}
+.second-part nav{
+    margin-top: 5px;
+    text-align: end;
+    padding-right: 150px;
+}
+.second-part ul{
+    list-style: none;
+}
+.second-part li{
+    display: inline;  
+    margin-right: 15px;  
+    list-style: none;
+}
+.second-part li a{
+    color: white;
+    text-decoration: none;
+}
+.second-part li a:hover{
+    color: green;
+}
